@@ -32,7 +32,7 @@ namespace EllieBot
                    .AddSingleton(_commands)
                    .BuildServiceProvider();
 
-            const string botToken = "MzMzMjgyOTQzNTg3ODQ0MTA5.DjNbpQ.KJOQx-QE4JrwDwHdZiOfWYV6Fak";
+            const string botToken = "YOUR_BOT_TOKEN_GOES_HERE";
 
             //event subscriptions.
             _client.Log += Log;
